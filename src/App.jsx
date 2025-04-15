@@ -33,9 +33,9 @@ function App() {
         <img
           ref={imgRef}
           src={heart}
-          style={{width: `${heartSize}%`}}
+          style={{width: `${heartSize}%`, marginTop: '-10%'}}
           onClick={() => handleClick()}
-          className={`relative -top-20 ${clickCount===10 && 'animate' || ''}`}
+          className={`${clickCount===10 && 'animate' || ''}`}
         />
         <FlyingText
         triggerCount={clickCount}
