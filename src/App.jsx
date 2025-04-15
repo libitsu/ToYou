@@ -44,7 +44,7 @@ function App() {
       />
       </Sparkles>
       { clickCount===10 &&
-        <div className='absolute bottom-30 font-semibold text-sm flex flex-col justify-center text-wrap p-3'>
+        <div className='absolute bottom-20 font-semibold text-sm flex flex-col justify-center text-wrap p-3'>
           I love you with all my heart and being Aldoku 💕, sehat selalu ya, bahagia selalu juga, semoga selalu dilimpahkan rezeki,kesehatan dan kebahagiaan selama di dunia dan di akhirat, Aamiin 💕
           <span className='font-bold mt-2'>btw ta mau es krim nnti 🙏</span>
         </div>
